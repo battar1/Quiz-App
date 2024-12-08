@@ -1,0 +1,166 @@
+{
+  "ar": [
+    {
+      "question": "ماذا يعني HTML؟",
+      "answer_1": "لغة ترميز النص الفائق",
+      "answer_2": "لغة ترميز أدوات المنزل",
+      "answer_3": "الروابط التشعبية ولغة ترميز النص",
+      "answer_4": "لغة معالجة النصوص عالية المستوى",
+      "correct_answer": "لغة ترميز النص الفائق"
+    },
+    {
+      "question": "ما هو الغرض من وسم <head> في مستند HTML؟",
+      "answer_1": "لعرض المحتوى الرئيسي للصفحة",
+      "answer_2": "لإضافة البيانات الوصفية وروابط إلى الموارد مثل ملفات التنسيق",
+      "answer_3": "لتعريف تذييل الصفحة",
+      "answer_4": "لإنشاء روابط التنقل للصفحة",
+      "correct_answer": "لإضافة البيانات الوصفية وروابط إلى الموارد مثل ملفات التنسيق"
+    },
+    {
+      "question": "اشرح الفرق بين <div> و <span>.",
+      "answer_1": "<div> عنصر من نوع كتلة، <span> عنصر من نوع خطي",
+      "answer_2": "<div> تُستخدم للصور، <span> تُستخدم للنصوص",
+      "answer_3": "<div> تنشئ الروابط، <span> تضيف التنسيقات",
+      "answer_4": "<div> لم تعد مستخدمة، <span> هي البديل",
+      "correct_answer": "<div> عنصر من نوع كتلة، <span> عنصر من نوع خطي"
+    },
+    {
+      "question": "كيف تنشئ رابطًا في HTML؟",
+      "answer_1": "<a href='URL'>رابط</a>",
+      "answer_2": "<link href='URL'>رابط</link>",
+      "answer_3": "<url href='URL'>رابط</url>",
+      "answer_4": "<hyperlink href='URL'>رابط</hyperlink>",
+      "correct_answer": "<a href='URL'>رابط</a>"
+    },
+    {
+      "question": "ما أهمية إعلان <!DOCTYPE> في HTML؟",
+      "answer_1": "يحدد نوع المستند وإصدار HTML",
+      "answer_2": "يربط ملفات CSS الخارجية بمستند HTML",
+      "answer_3": "يحدد لغة مستند HTML",
+      "answer_4": "يضيف تعليقات إلى مستند HTML",
+      "correct_answer": "يحدد نوع المستند وإصدار HTML"
+    },
+    {
+      "question": "ما الفرق بين الوسمين <ol> و <ul>؟",
+      "answer_1": "<ol> تنشئ قائمة مرتبة، <ul> تنشئ قائمة غير مرتبة",
+      "answer_2": "<ol> تُستخدم للصور، <ul> تُستخدم للنصوص",
+      "answer_3": "<ol> عنصر من نوع كتلة، <ul> عنصر من نوع خطي",
+      "answer_4": "<ol> تضيف التنسيقات، <ul> تنشئ روابط التنقل",
+      "correct_answer": "<ol> تنشئ قائمة مرتبة، <ul> تنشئ قائمة غير مرتبة"
+    },
+    {
+      "question": "ما هو HTML الدلالي ولماذا هو مهم؟",
+      "answer_1": "يستخدم وسوم ذات معنى لتحسين الهيكل وإمكانية الوصول",
+      "answer_2": "يطبق CSS مباشرة داخل وسوم HTML",
+      "answer_3": "يعزز أداء وظائف JavaScript",
+      "answer_4": "يمكن من استخدام الرسومات SVG",
+      "correct_answer": "يستخدم وسوم ذات معنى لتحسين الهيكل وإمكانية الوصول"
+    },
+    {
+      "question": "كيف تضيف صورة إلى مستند HTML؟",
+      "answer_1": "<img src='image.jpg' alt='الوصف'>",
+      "answer_2": "<image src='image.jpg' description='alt'>",
+      "answer_3": "<img href='image.jpg' alt='الوصف'>",
+      "answer_4": "<picture src='image.jpg' alt='الوصف'>",
+      "correct_answer": "<img src='image.jpg' alt='الوصف'>"
+    },
+    {
+      "question": "ما الخصائص التي تُستخدم لتحديد أبعاد الصورة في HTML؟",
+      "answer_1": "العرض والارتفاع (width and height)",
+      "answer_2": "الحجم والأبعاد (size and dimensions)",
+      "answer_3": "القياس والدقة (scale and resolution)",
+      "answer_4": "الطول والعرض (length and breadth)",
+      "correct_answer": "العرض والارتفاع (width and height)"
+    },
+    {
+      "question": "كيف يمكن تضمين ملفات التنسيق الخارجية في مستند HTML؟",
+      "answer_1": "<link rel='stylesheet' href='styles.css'>",
+      "answer_2": "<style rel='stylesheet' href='styles.css'>",
+      "answer_3": "<script href='styles.css'>",
+      "answer_4": "<css src='styles.css'>",
+      "correct_answer": "<link rel='stylesheet' href='styles.css'>"
+    }
+  ],
+  "en": [
+    {
+      "question": "What does HTML stand for?",
+      "answer_1": "Hyper Text Markup Language",
+      "answer_2": "Home Tool Markup Language",
+      "answer_3": "Hyperlinks and Text Markup Language",
+      "answer_4": "High-Level Text Manipulation Language",
+      "correct_answer": "Hyper Text Markup Language"
+    },
+    {
+      "question": "What is the purpose of the <head> tag in an HTML document?",
+      "answer_1": "To display the main content of the page",
+      "answer_2": "To contain metadata and links to resources like stylesheets",
+      "answer_3": "To define the footer of the page",
+      "answer_4": "To create navigation links for the page",
+      "correct_answer": "To contain metadata and links to resources like stylesheets"
+    },
+    {
+      "question": "Explain the difference between <div> and <span>.",
+      "answer_1": "<div> is a block-level element, <span> is an inline element",
+      "answer_2": "<div> is used for images, <span> is used for text",
+      "answer_3": "<div> creates hyperlinks, <span> adds styles",
+      "answer_4": "<div> is deprecated, <span> is the replacement",
+      "correct_answer": "<div> is a block-level element, <span> is an inline element"
+    },
+    {
+      "question": "How do you create a hyperlink in HTML?",
+      "answer_1": "<a href='URL'>Link</a>",
+      "answer_2": "<link href='URL'>Link</link>",
+      "answer_3": "<url href='URL'>Link</url>",
+      "answer_4": "<hyperlink href='URL'>Link</hyperlink>",
+      "correct_answer": "<a href='URL'>Link</a>"
+    },
+    {
+      "question": "What is the significance of the <!DOCTYPE> declaration in HTML?",
+      "answer_1": "It defines the document type and version of HTML",
+      "answer_2": "It links external CSS files to the HTML document",
+      "answer_3": "It sets the language of the HTML document",
+      "answer_4": "It adds comments to the HTML document",
+      "correct_answer": "It defines the document type and version of HTML"
+    },
+    {
+      "question": "What is the difference between <ol> and <ul> tags?",
+      "answer_1": "<ol> creates an ordered list, <ul> creates an unordered list",
+      "answer_2": "<ol> is for images, <ul> is for text",
+      "answer_3": "<ol> is a block element, <ul> is an inline element",
+      "answer_4": "<ol> adds styles, <ul> creates navigation links",
+      "correct_answer": "<ol> creates an ordered list, <ul> creates an unordered list"
+    },
+    {
+      "question": "What is semantic HTML, and why is it important?",
+      "answer_1": "It uses meaningful tags for better structure and accessibility",
+      "answer_2": "It applies CSS directly within HTML tags",
+      "answer_3": "It enhances the performance of JavaScript functions",
+      "answer_4": "It enables the use of SVG graphics",
+      "correct_answer": "It uses meaningful tags for better structure and accessibility"
+    },
+    {
+      "question": "How do you add an image to an HTML document?",
+      "answer_1": "<img src='image.jpg' alt='description'>",
+      "answer_2": "<image src='image.jpg' description='alt'>",
+      "answer_3": "<img href='image.jpg' alt='description'>",
+      "answer_4": "<picture src='image.jpg' alt='description'>",
+      "correct_answer": "<img src='image.jpg' alt='description'>"
+    },
+    {
+      "question": "What attributes are used to specify the dimensions of an image in HTML?",
+      "answer_1": "width and height",
+      "answer_2": "size and dimensions",
+      "answer_3": "scale and resolution",
+      "answer_4": "length and breadth",
+      "correct_answer": "width and height"
+    },
+    {
+      "question": "How can you include external stylesheets in an HTML document?",
+      "answer_1": "<link rel='stylesheet' href='styles.css'>",
+      "answer_2": "<style rel='stylesheet' href='styles.css'>",
+      "answer_3": "<script href='styles.css'>",
+      "answer_4": "<css src='styles.css'>",
+      "correct_answer": "<link rel='stylesheet' href='styles.css'>"
+    }
+  ]
+}

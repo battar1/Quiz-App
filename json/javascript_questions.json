@@ -1,0 +1,166 @@
+{
+  "ar": [
+    {
+      "question": "ماذا تعني كلمة \"var\" في JavaScript؟",
+      "answer_1": "تعريف متغير",
+      "answer_2": "تعريف دالة",
+      "answer_3": "تعريف كائن",
+      "answer_4": "تعريف مصفوفة",
+      "correct_answer": "تعريف متغير"
+    },
+    {
+      "question": "ما هو الناتج عند تنفيذ `console.log(typeof NaN)`؟",
+      "answer_1": "number",
+      "answer_2": "string",
+      "answer_3": "undefined",
+      "answer_4": "object",
+      "correct_answer": "number"
+    },
+    {
+      "question": "ما هي الطريقة المستخدمة لتحويل نص إلى رقم؟",
+      "answer_1": "parseInt()",
+      "answer_2": "toString()",
+      "answer_3": "typeof",
+      "answer_4": "isNaN()",
+      "correct_answer": "parseInt()"
+    },
+    {
+      "question": "ما هو الفرق بين `null` و `undefined` في JavaScript؟",
+      "answer_1": "لا يوجد فرق",
+      "answer_2": "undefined هو قيمة غير معرفة، null هو قيمة فارغة",
+      "answer_3": "null هو نوع من الكائنات، undefined هو نوع من الأرقام",
+      "answer_4": "undefined هو نوع من الكائنات، null هو نوع من الأرقام",
+      "correct_answer": "undefined هو قيمة غير معرفة، null هو قيمة فارغة"
+    },
+    {
+      "question": "أي من هذه الطرق تستخدم لإضافة عنصر إلى نهاية المصفوفة؟",
+      "answer_1": "push()",
+      "answer_2": "shift()",
+      "answer_3": "unshift()",
+      "answer_4": "pop()",
+      "correct_answer": "push()"
+    },
+    {
+      "question": "ما هو الناتج عند تنفيذ `console.log(2 + '2')`؟",
+      "answer_1": "'22'",
+      "answer_2": "4",
+      "answer_3": "NaN",
+      "answer_4": "undefined",
+      "correct_answer": "'22'"
+    },
+    {
+      "question": "كيف يمكن الإعلان عن دالة في JavaScript؟",
+      "answer_1": "function myFunction() {}",
+      "answer_2": "def myFunction() {}",
+      "answer_3": "create function myFunction()",
+      "answer_4": "function = myFunction()",
+      "correct_answer": "function myFunction() {}"
+    },
+    {
+      "question": "ما هي الكلمة المفتاحية التي تُستخدم لإنشاء كائن في JavaScript؟",
+      "answer_1": "new",
+      "answer_2": "create",
+      "answer_3": "object",
+      "answer_4": "var",
+      "correct_answer": "new"
+    },
+    {
+      "question": "كيف يمكننا الوصول إلى العنصر الأول في مصفوفة في JavaScript؟",
+      "answer_1": "array[0]",
+      "answer_2": "array[1]",
+      "answer_3": "array.first()",
+      "answer_4": "array.firstElement()",
+      "correct_answer": "array[0]"
+    },
+    {
+      "question": "أي من هذه العبارات تعبر عن حلقة تكرار (loop) في JavaScript؟",
+      "answer_1": "for (i = 0; i < 5; i++)",
+      "answer_2": "loop(i = 0; i < 5; i++)",
+      "answer_3": "repeat(i = 0; i < 5; i++)",
+      "answer_4": "for (i = 0; i < 5)",
+      "correct_answer": "for (i = 0; i < 5; i++)"
+    }
+  ],
+  "en": [
+    {
+      "question": "What does the keyword \"var\" mean in JavaScript?",
+      "answer_1": "Define a variable",
+      "answer_2": "Define a function",
+      "answer_3": "Define an object",
+      "answer_4": "Define an array",
+      "correct_answer": "Define a variable"
+    },
+    {
+      "question": "What is the result of `console.log(typeof NaN)`?",
+      "answer_1": "number",
+      "answer_2": "string",
+      "answer_3": "undefined",
+      "answer_4": "object",
+      "correct_answer": "number"
+    },
+    {
+      "question": "Which method is used to convert a string to a number?",
+      "answer_1": "parseInt()",
+      "answer_2": "toString()",
+      "answer_3": "typeof",
+      "answer_4": "isNaN()",
+      "correct_answer": "parseInt()"
+    },
+    {
+      "question": "What is the difference between `null` and `undefined` in JavaScript?",
+      "answer_1": "There is no difference",
+      "answer_2": "undefined is an undefined value, null is an empty value",
+      "answer_3": "null is a type of object, undefined is a type of number",
+      "answer_4": "undefined is a type of object, null is a type of number",
+      "correct_answer": "undefined is an undefined value, null is an empty value"
+    },
+    {
+      "question": "Which of the following methods is used to add an element to the end of an array?",
+      "answer_1": "push()",
+      "answer_2": "shift()",
+      "answer_3": "unshift()",
+      "answer_4": "pop()",
+      "correct_answer": "push()"
+    },
+    {
+      "question": "What is the result of `console.log(2 + '2')`?",
+      "answer_1": "'22'",
+      "answer_2": "4",
+      "answer_3": "NaN",
+      "answer_4": "undefined",
+      "correct_answer": "'22'"
+    },
+    {
+      "question": "How do you declare a function in JavaScript?",
+      "answer_1": "function myFunction() {}",
+      "answer_2": "def myFunction() {}",
+      "answer_3": "create function myFunction()",
+      "answer_4": "function = myFunction()",
+      "correct_answer": "function myFunction() {}"
+    },
+    {
+      "question": "What keyword is used to create an object in JavaScript?",
+      "answer_1": "new",
+      "answer_2": "create",
+      "answer_3": "object",
+      "answer_4": "var",
+      "correct_answer": "new"
+    },
+    {
+      "question": "How do you access the first element of an array in JavaScript?",
+      "answer_1": "array[0]",
+      "answer_2": "array[1]",
+      "answer_3": "array.first()",
+      "answer_4": "array.firstElement()",
+      "correct_answer": "array[0]"
+    },
+    {
+      "question": "Which of the following is a valid loop in JavaScript?",
+      "answer_1": "for (i = 0; i < 5; i++)",
+      "answer_2": "loop(i = 0; i < 5; i++)",
+      "answer_3": "repeat(i = 0; i < 5; i++)",
+      "answer_4": "for (i = 0; i < 5)",
+      "correct_answer": "for (i = 0; i < 5; i++)"
+    }
+  ]
+}

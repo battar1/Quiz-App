@@ -1,0 +1,166 @@
+{
+  "ar": [
+    {
+      "question": "ما هي وظيفة الخاصية `display` في CSS؟",
+      "answer_1": "تحديد كيفية عرض العنصر (block, inline, etc.)",
+      "answer_2": "تحديد حجم العنصر",
+      "answer_3": "تحديد لون الخلفية",
+      "answer_4": "تحديد مسافة العنصر من العناصر الأخرى",
+      "correct_answer": "تحديد كيفية عرض العنصر (block, inline, etc.)"
+    },
+    {
+      "question": "ما هي الخاصية المستخدمة لتحديد لون النص في CSS؟",
+      "answer_1": "color",
+      "answer_2": "font-color",
+      "answer_3": "text-color",
+      "answer_4": "background-color",
+      "correct_answer": "color"
+    },
+    {
+      "question": "كيف يمكن تحديد المسافة بين النص وحدود العنصر في CSS؟",
+      "answer_1": "باستخدام `padding`",
+      "answer_2": "باستخدام `margin`",
+      "answer_3": "باستخدام `border`",
+      "answer_4": "باستخدام `spacing`",
+      "correct_answer": "باستخدام `padding`"
+    },
+    {
+      "question": "ما الفرق بين `margin` و `padding` في CSS؟",
+      "answer_1": "الـ `margin` هو المسافة خارج العنصر، بينما الـ `padding` هو المسافة داخل العنصر",
+      "answer_2": "الـ `margin` هو المسافة داخل العنصر، بينما الـ `padding` هو المسافة خارج العنصر",
+      "answer_3": "الـ `margin` يستخدم لتحديد حجم العنصر، والـ `padding` يستخدم لتحديد المسافة بين النص والخلفية",
+      "answer_4": "الـ `margin` والـ `padding` هما نفس الشيء",
+      "correct_answer": "الـ `margin` هو المسافة خارج العنصر، بينما الـ `padding` هو المسافة داخل العنصر"
+    },
+    {
+      "question": "كيف يمكنك تطبيق تأثيرات الانتقال (transitions) في CSS؟",
+      "answer_1": "باستخدام الخاصية `transition`",
+      "answer_2": "باستخدام الخاصية `animation`",
+      "answer_3": "باستخدام الخاصية `transform`",
+      "answer_4": "باستخدام الخاصية `visibility`",
+      "correct_answer": "باستخدام الخاصية `transition`"
+    },
+    {
+      "question": "ما هو تأثير الخاصية `position` في CSS؟",
+      "answer_1": "تحديد كيفية وضع العنصر في الصفحة (absolute, relative, etc.)",
+      "answer_2": "تحديد حجم العنصر",
+      "answer_3": "تحديد ألوان الخلفية",
+      "answer_4": "تحديد تباعد العناصر",
+      "correct_answer": "تحديد كيفية وضع العنصر في الصفحة (absolute, relative, etc.)"
+    },
+    {
+      "question": "ما هو الفرق بين `absolute` و `relative` في الخاصية `position`؟",
+      "answer_1": "العنصر الذي يستخدم `absolute` يتم تحديده بالنسبة لأقرب عنصر يحتوي عليه، بينما `relative` يتم تحديده بالنسبة لموقعه الأصلي",
+      "answer_2": "العنصر الذي يستخدم `relative` يتم تحديده بالنسبة لأقرب عنصر يحتوي عليه، بينما `absolute` يتم تحديده بالنسبة لموقعه الأصلي",
+      "answer_3": "لا يوجد فرق بين `absolute` و `relative`",
+      "answer_4": "الـ `relative` يستخدم لتحديد المسافات الداخلية، بينما `absolute` يستخدم لتحديد المسافات الخارجية",
+      "correct_answer": "العنصر الذي يستخدم `absolute` يتم تحديده بالنسبة لأقرب عنصر يحتوي عليه، بينما `relative` يتم تحديده بالنسبة لموقعه الأصلي"
+    },
+    {
+      "question": "كيف يمكن إضافة خلفية إلى العنصر باستخدام CSS؟",
+      "answer_1": "باستخدام `background-color`",
+      "answer_2": "باستخدام `background-image`",
+      "answer_3": "باستخدام `border`",
+      "answer_4": "باستخدام `fill`",
+      "correct_answer": "باستخدام `background-image`"
+    },
+    {
+      "question": "كيف يمكن تغيير الخط في CSS؟",
+      "answer_1": "باستخدام `font-family`",
+      "answer_2": "باستخدام `text-style`",
+      "answer_3": "باستخدام `font-size`",
+      "answer_4": "باستخدام `line-height`",
+      "correct_answer": "باستخدام `font-family`"
+    },
+    {
+      "question": "ما هي الخاصية المستخدمة لضبط عرض العنصر في CSS؟",
+      "answer_1": "width",
+      "answer_2": "height",
+      "answer_3": "margin",
+      "answer_4": "padding",
+      "correct_answer": "width"
+    }
+  ],
+  "en": [
+    {
+      "question": "What is the function of the `display` property in CSS?",
+      "answer_1": "Defines how an element is displayed (block, inline, etc.)",
+      "answer_2": "Defines the size of the element",
+      "answer_3": "Defines the background color",
+      "answer_4": "Defines the spacing between elements",
+      "correct_answer": "Defines how an element is displayed (block, inline, etc.)"
+    },
+    {
+      "question": "Which property is used to set the text color in CSS?",
+      "answer_1": "color",
+      "answer_2": "font-color",
+      "answer_3": "text-color",
+      "answer_4": "background-color",
+      "correct_answer": "color"
+    },
+    {
+      "question": "How can you set the space between text and the border of an element in CSS?",
+      "answer_1": "Using `padding`",
+      "answer_2": "Using `margin`",
+      "answer_3": "Using `border`",
+      "answer_4": "Using `spacing`",
+      "correct_answer": "Using `padding`"
+    },
+    {
+      "question": "What is the difference between `margin` and `padding` in CSS?",
+      "answer_1": "`margin` is the space outside the element, while `padding` is the space inside the element",
+      "answer_2": "`margin` is the space inside the element, while `padding` is the space outside the element",
+      "answer_3": "`margin` defines the element size, and `padding` defines the space between text and the background",
+      "answer_4": "`margin` and `padding` are the same thing",
+      "correct_answer": "`margin` is the space outside the element, while `padding` is the space inside the element"
+    },
+    {
+      "question": "How can you apply transition effects in CSS?",
+      "answer_1": "Using the `transition` property",
+      "answer_2": "Using the `animation` property",
+      "answer_3": "Using the `transform` property",
+      "answer_4": "Using the `visibility` property",
+      "correct_answer": "Using the `transition` property"
+    },
+    {
+      "question": "What does the `position` property do in CSS?",
+      "answer_1": "Defines how an element is positioned on the page (absolute, relative, etc.)",
+      "answer_2": "Defines the size of the element",
+      "answer_3": "Defines background colors",
+      "answer_4": "Defines the spacing between elements",
+      "correct_answer": "Defines how an element is positioned on the page (absolute, relative, etc.)"
+    },
+    {
+      "question": "What is the difference between `absolute` and `relative` in the `position` property?",
+      "answer_1": "An element with `absolute` is positioned relative to the closest containing element, while `relative` is positioned relative to its original position",
+      "answer_2": "An element with `relative` is positioned relative to the closest containing element, while `absolute` is positioned relative to its original position",
+      "answer_3": "There is no difference between `absolute` and `relative`",
+      "answer_4": "`relative` is used to define internal distances, while `absolute` is used for external distances",
+      "correct_answer": "An element with `absolute` is positioned relative to the closest containing element, while `relative` is positioned relative to its original position"
+    },
+    {
+      "question": "How can you add a background to an element using CSS?",
+      "answer_1": "Using `background-color`",
+      "answer_2": "Using `background-image`",
+      "answer_3": "Using `border`",
+      "answer_4": "Using `fill`",
+      "correct_answer": "Using `background-image`"
+    },
+    {
+      "question": "How can you change the font in CSS?",
+      "answer_1": "Using `font-family`",
+      "answer_2": "Using `text-style`",
+      "answer_3": "Using `font-size`",
+      "answer_4": "Using `line-height`",
+      "correct_answer": "Using `font-family`"
+    },
+    {
+      "question": "Which property is used to set the width of an element in CSS?",
+      "answer_1": "width",
+      "answer_2": "height",
+      "answer_3": "margin",
+      "answer_4": "padding",
+      "correct_answer": "width"
+    }
+  ]
+}

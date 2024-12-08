@@ -1,0 +1,166 @@
+{
+  "ar": [
+    {
+      "question": "ما هي وظيفة `useState` في React؟",
+      "answer_1": "لتخزين الحالة في المكونات الوظيفية",
+      "answer_2": "لتخزين الحالة في المكونات الصفية",
+      "answer_3": "لإدارة الأحداث",
+      "answer_4": "لإجراء عمليات على البيانات",
+      "correct_answer": "لتخزين الحالة في المكونات الوظيفية"
+    },
+    {
+      "question": "ماذا يعني `JSX` في React؟",
+      "answer_1": "JavaScript XML",
+      "answer_2": "JavaScript Expression",
+      "answer_3": "JavaScript Extension",
+      "answer_4": "JSON Expression",
+      "correct_answer": "JavaScript XML"
+    },
+    {
+      "question": "كيف يمكنك تمرير الخصائص (props) إلى مكون React؟",
+      "answer_1": "من خلال خاصية `props` في المكون",
+      "answer_2": "من خلال الدالة `setState()`",
+      "answer_3": "من خلال `useEffect()`",
+      "answer_4": "من خلال `useState()`",
+      "correct_answer": "من خلال خاصية `props` في المكون"
+    },
+    {
+      "question": "ماذا يفعل `useEffect` في React؟",
+      "answer_1": "لتنفيذ العمليات الجانبية (side effects) في المكونات الوظيفية",
+      "answer_2": "لتخزين الحالة",
+      "answer_3": "لإدارة البيانات",
+      "answer_4": "لتحديث واجهة المستخدم",
+      "correct_answer": "لتنفيذ العمليات الجانبية (side effects) في المكونات الوظيفية"
+    },
+    {
+      "question": "ما الفرق بين المكونات الوظيفية والمكونات الصفية في React؟",
+      "answer_1": "المكونات الصفية تستخدم `class`، بينما المكونات الوظيفية تستخدم `function`",
+      "answer_2": "المكونات الصفية أسرع من المكونات الوظيفية",
+      "answer_3": "المكونات الوظيفية لا يمكنها استخدام `state`",
+      "answer_4": "المكونات الصفية لا يمكنها استخدام `props`",
+      "correct_answer": "المكونات الصفية تستخدم `class`، بينما المكونات الوظيفية تستخدم `function`"
+    },
+    {
+      "question": "ماذا يفعل `ReactDOM.render()`؟",
+      "answer_1": "يربط المكون بجذر DOM",
+      "answer_2": "يعرض البيانات في واجهة المستخدم",
+      "answer_3": "ينشئ مكونات جديدة",
+      "answer_4": "يحدث حالة المكون",
+      "correct_answer": "يربط المكون بجذر DOM"
+    },
+    {
+      "question": "كيف يمكن استخدام `useRef` في React؟",
+      "answer_1": "لإرجاع مرجع إلى عنصر DOM",
+      "answer_2": "لإدارة الحالة",
+      "answer_3": "لتنفيذ العمليات الجانبية",
+      "answer_4": "لتحديد أنواع البيانات",
+      "correct_answer": "لإرجاع مرجع إلى عنصر DOM"
+    },
+    {
+      "question": "ماذا يعني `key` في عناصر React؟",
+      "answer_1": "لتحديد العناصر بشكل فريد في قائمة العناصر",
+      "answer_2": "لتحديد الخصائص للمكونات",
+      "answer_3": "لتخزين البيانات",
+      "answer_4": "لتحديث واجهة المستخدم",
+      "correct_answer": "لتحديد العناصر بشكل فريد في قائمة العناصر"
+    },
+    {
+      "question": "كيف يمكن تحديث الحالة في React؟",
+      "answer_1": "باستخدام `setState()`",
+      "answer_2": "باستخدام `useState()`",
+      "answer_3": "باستخدام `updateState()`",
+      "answer_4": "باستخدام `useEffect()`",
+      "correct_answer": "باستخدام `setState()`"
+    },
+    {
+      "question": "كيف يمكن تمرير دالة كـ `prop` إلى مكون في React؟",
+      "answer_1": "عن طريق إرسالها كـ `prop` عند استدعاء المكون",
+      "answer_2": "عن طريق استخدامها داخل `useEffect()`",
+      "answer_3": "عن طريق إضافتها إلى `state`",
+      "answer_4": "عن طريق استخدام `useState()`",
+      "correct_answer": "عن طريق إرسالها كـ `prop` عند استدعاء المكون"
+    }
+  ],
+  "en": [
+    {
+      "question": "What is the function of `useState` in React?",
+      "answer_1": "To store state in functional components",
+      "answer_2": "To store state in class components",
+      "answer_3": "To manage events",
+      "answer_4": "To perform operations on data",
+      "correct_answer": "To store state in functional components"
+    },
+    {
+      "question": "What does `JSX` mean in React?",
+      "answer_1": "JavaScript XML",
+      "answer_2": "JavaScript Expression",
+      "answer_3": "JavaScript Extension",
+      "answer_4": "JSON Expression",
+      "correct_answer": "JavaScript XML"
+    },
+    {
+      "question": "How do you pass props to a React component?",
+      "answer_1": "Through the `props` property in the component",
+      "answer_2": "Through the `setState()` function",
+      "answer_3": "Through `useEffect()`",
+      "answer_4": "Through `useState()`",
+      "correct_answer": "Through the `props` property in the component"
+    },
+    {
+      "question": "What does `useEffect` do in React?",
+      "answer_1": "To perform side effects in functional components",
+      "answer_2": "To store state",
+      "answer_3": "To manage data",
+      "answer_4": "To update the user interface",
+      "correct_answer": "To perform side effects in functional components"
+    },
+    {
+      "question": "What is the difference between functional and class components in React?",
+      "answer_1": "Class components use `class`, while functional components use `function`",
+      "answer_2": "Class components are faster than functional components",
+      "answer_3": "Functional components cannot use `state`",
+      "answer_4": "Class components cannot use `props`",
+      "correct_answer": "Class components use `class`, while functional components use `function`"
+    },
+    {
+      "question": "What does `ReactDOM.render()` do?",
+      "answer_1": "Binds the component to the DOM root",
+      "answer_2": "Displays data in the user interface",
+      "answer_3": "Creates new components",
+      "answer_4": "Updates the component state",
+      "correct_answer": "Binds the component to the DOM root"
+    },
+    {
+      "question": "How can you use `useRef` in React?",
+      "answer_1": "To return a reference to a DOM element",
+      "answer_2": "To manage state",
+      "answer_3": "To perform side effects",
+      "answer_4": "To define data types",
+      "correct_answer": "To return a reference to a DOM element"
+    },
+    {
+      "question": "What does `key` mean in React elements?",
+      "answer_1": "To uniquely identify elements in a list",
+      "answer_2": "To define properties for components",
+      "answer_3": "To store data",
+      "answer_4": "To update the user interface",
+      "correct_answer": "To uniquely identify elements in a list"
+    },
+    {
+      "question": "How can you update the state in React?",
+      "answer_1": "Using `setState()`",
+      "answer_2": "Using `useState()`",
+      "answer_3": "Using `updateState()`",
+      "answer_4": "Using `useEffect()`",
+      "correct_answer": "Using `setState()`"
+    },
+    {
+      "question": "How can you pass a function as a `prop` to a component in React?",
+      "answer_1": "By passing it as a `prop` when calling the component",
+      "answer_2": "By using it inside `useEffect()`",
+      "answer_3": "By adding it to `state`",
+      "answer_4": "By using `useState()`",
+      "correct_answer": "By passing it as a `prop` when calling the component"
+    }
+  ]
+}
