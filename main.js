@@ -34,14 +34,14 @@ const cardsContainer = document.createElement("div");
 function TestsCards() {
   let questionsFiles = {
     html: {
-      path: "/json/html_questions.json",
+      path: "json/html_questions.json",
       desc:
         language === "ar"
           ? `لغة ترميز هيكلية تُستخدم لإنشاء البنية الأساسية لصفحات الويب وتحديد محتواها، مثل النصوص والصور والروابط.`
           : `A structural markup language used to create the basic framework of web pages and define their content, like text, images, and links.`,
     },
     css: {
-      path: "/json/css_questions.json",
+      path: "json/css_questions.json",
       desc:
         language === "ar"
           ? `لغة تصميم تُستخدم لتنسيق صفحات الويب وتحسين مظهرها، بما في ذلك الألوان والخطوط والتخطيطات.`
@@ -49,7 +49,7 @@ function TestsCards() {
              including colors, fonts, and layouts.`,
     },
     javascript: {
-      path: "/json/javascript_questions.json",
+      path: "json/javascript_questions.json",
       desc:
         language === "ar"
           ? `لغة برمجة ديناميكية تُستخدم لإضافة التفاعلية والوظائف المتقدمة لصفحات الويب، مثل القوائم التفاعلية والنماذج.`
@@ -57,7 +57,7 @@ function TestsCards() {
                   such as interactive menus and forms.`,
     },
     reactJS: {
-      path: "/json/react_questions.json",
+      path: "json/react_questions.json",
       desc:
         language === "ar"
           ? `مكتبة JavaScript تُستخدم لتطوير واجهات المستخدم التفاعلية والقابلة لإعادة الاستخدام، مع التركيز
