@@ -1,11 +1,11 @@
 const body = document.body;
-let header = document.querySelector("header");
-let questionArea = document.querySelector(".question");
-let answers = document.querySelector(".answers");
-let sub = document.querySelector(".sub");
-let modalButton = document.querySelector(".modalB");
-let CountElement = document.querySelector(".count-down");
-let total = document.querySelector(".total");
+const header = document.querySelector("header");
+const questionArea = document.querySelector(".question");
+const answers = document.querySelector(".answers");
+const sub = document.querySelector(".sub");
+const modalButton = document.querySelector(".modalB");
+const CountElement = document.querySelector(".count-down");
+const total = document.querySelector(".total");
 const chosenLan = document.querySelectorAll(".chosenLan");
 const languages = document.querySelector(".btn-group-lg");
 const testContainer = document.querySelector(".test-container");
@@ -18,7 +18,6 @@ const center = "d-flex align-items-center justify-content-center container";
 const cardsContainer = document.createElement("div");
 
 (() => {
-  // testContainer.style.display = "none";
   testContainer.remove();
 
   chosenLan.forEach((button) => {
@@ -110,9 +109,7 @@ function TestsCards() {
 }
 
 function fetchData() {
-  // testContainer.style.display = "block";
   body.appendChild(testContainer);
-
   let countCorrectAnswers = 0;
   let index = 0;
   let questionsLength;
@@ -127,7 +124,7 @@ function fetchData() {
       console.log(data);
       let testData = language === "ar" ? data.ar : data.en;
       questionsLength = testData.length;
-      // countDown(10, questionsLength);
+      countDown(15);
       questionInfo();
       addQuestion(testData[index], questionsLength);
       sub.onclick = () => {
@@ -138,10 +135,9 @@ function fetchData() {
         questionArea.innerHTML = "";
         answers.innerHTML = "";
         addQuestion(testData[index], questionsLength);
-        // clearInterval(down);
-        // countDown(10, questionsLength);
+        clearInterval(down);
+        countDown(15);
         results();
-        questionInfo();
       };
     })
     .catch((err) => console.log(err));
@@ -151,7 +147,6 @@ function fetchData() {
       let questionText = document.createTextNode(data.question);
       questionArea.appendChild(questionText);
       const orderArray = [1, 2, 3, 4];
-      // orderArray.sort(() => Math.random() - 0.5);
       const shuffledOrder = orderArray.sort(() => Math.random() - 0.5);
       for (let i = 1; i <= 4; i++) {
         let answerContainer = document.createElement("div");
@@ -224,17 +219,17 @@ function fetchData() {
       countCorrectAnswers = 0;
     }
   }
-  // function countDown(duration, count) {
-  //   if (index < count) {
-  //     let seconds;
-  //     down = setInterval(function () {
-  //       seconds = parseInt(duration % 60);
-  //       CountElement.innerHTML = `${seconds}`;
-  //       if (--duration < 0) {
-  //         clearInterval(down);
-  //         sub.click();
-  //       }
-  //     }, 1000);
-  //   }
-  // }
+  function countDown(duration) {
+    if (index < questionsLength) {
+      let seconds;
+      down = setInterval(function () {
+        seconds = parseInt(duration % 60);
+        CountElement.innerHTML = `${seconds}`;
+        if (--duration < 0) {
+          clearInterval(down);
+          sub.click();
+        }
+      }, 1000);
+    }
+  }
 }
